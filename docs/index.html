@@ -1,12 +1,15 @@
 <html>
   <head>
-    <title>Learning Angular Elements</title>
+    <title>Snackbar POC</title>
     <link rel="stylesheet" type="text/css" href="./app-notification-snackbar-component.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
   <body>
-    <h1>App toast</h1>
-    <app-toast></app-toast>
+    <h1>App snackbar</h1>
+    <app-snackbar snackbar-message="Hey! This is a snackbar"
+                  snackbar-action="Learn more"></app-snackbar>
+    <div id="output-message"></div>
     <script src="./app-notification-snackbar-component.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
